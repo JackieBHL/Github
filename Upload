@@ -1,0 +1,19 @@
+Master Branch 
+
+git init
+git add <folder1> <folder2> <etc.>
+git commit -m "Your message about the commit"
+git remote add origin https://github.com/yourUsername/yourRepository.git
+git push -u origin master
+git push origin master
+
+Main
+
+echo "# repo-name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/repo-name.git
+git push -u origin main
+
